@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="2ccd7db9010aafb14c14c8fabd079ae683d25100a5e9410916b3897682d400b0.html">Quotation Of An Auteco Bike</a></span>
+                > <span class="truncate-60"><a
+                    href="784805e99197cecef53f596797c90f7aae7df5e9a4be33ddb3d2cacc7588623a.html">to quote a bike using the auteco tool </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-08-2020 14:14</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Quotation Of An Auteco Bike </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="2f59df5a4feccefff541f3a3f0f19ff69082c3d3d406875b259415f1be4b0b57.html">Runnertags
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="83848aa5527a5f524ea44be47368bfef8ff9aedf7c3e2ec6816387e150a51992.html">Action
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">to quote a bike using the auteco tool
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="c9ba66eb97c940a89c3218265fd48833a4d7ee13411f011508d47d6dbe2c8c88.png" title="Given That User wants to quote a bike" width="1366"/>
+                <img src="11027e263454e833e9521234dfe45fdd720123160ef8fad68f890f9d1b185890.png" title="Cristian opens the Auteco user interface" width="1366"/>
+                <img src="5ec5cda3a8936458b76aacfe98fd84eb60bb5861f43b002335c470dfc84ce7ce.png" title="Cristian clicks on Bot&oacute;n ingreso auteco" width="1366"/>
+                <img src="93ce5e87ea3691d8fd7d37922c02cab52ce050b546d2b0ff05a3c34f49d10c72.png" title="Cristian clicks on Cerrar polit&iacute;cas" width="1366"/>
+                <img src="fb44ec53b50aafe7d5e208af99fd993517d51cc2922728f539a08f672c5e4913.png" title="Cristian clicks on Cual compro" width="1366"/>
+                <img src="c83066369c281ab6dfca11f0a1b451e6653591145b1a92e4fd651d753749a5a4.png" title="Cristian clicks on Cerrar polit&iacute;cas" width="1366"/>
+                <img src="8dfb15d134863d93f00d493f74cdc257e0d84b97ab66b3ac6a447fca77b62f08.png" title="When he Enters the quote section
+| name | email | cellphone | payment | area | city |
+| John | John@gmail.com | 1234567890 | Cr&eacute;dito | Antioquia | Medellin |" width="1366"/>
+                <img src="d80a7a4e8e22cab132f7c05ddd0179ef3a2252802fb6578a2d4df407e49be384.png" title="Cristian enters 'John' into Cerrar polit&iacute;cas" width="1366"/>
+                <img src="3485678b10a38d35475997e2bf1fc829f585bd81818f1fe0b082b9937a81f468.png" title="Cristian enters 'John@gmail.com' into Cerrar polit&iacute;cas" width="1366"/>
+                <img src="d4b4ea232348b8b1557bb542dd1413d0d8f88bf2d280ca8fd5d21d8cfd05d3ed.png" title="Cristian enters '1234567890' into Cerrar polit&iacute;cas" width="1366"/>
+                <img src="7049c2162647ebcd5c2bb6f1aa551f31fb3be04f6f911671b8747b17b2dd405f.png" title="Cristian clicks on Cerrar polit&iacute;cas" width="1366"/>
+                <img src="cfe1a34338f0956bf497ab0d9d8e0ea93f1f3ebbda456e94fe1d2374401e6ad4.png" title="Cristian select Cr&eacute;dito on Cerrar polit&iacute;cas" width="1366"/>
+                <img src="319499cc4df7a79d53499e379178cb28106c3c3dcba50fc78da6e5b8fe194fa3.png" title="Cristian clicks on Cerrar polit&iacute;cas" width="1366"/>
+                <img src="319499cc4df7a79d53499e379178cb28106c3c3dcba50fc78da6e5b8fe194fa3.png" title="Cristian select Antioquia on Cerrar polit&iacute;cas" width="1366"/>
+                <img src="4b436f3de5d59678f6face890bc77e3235c481fee16c94fd3da479cea0ff4315.png" title="Cristian clicks on Cerrar polit&iacute;cas" width="1366"/>
+                <img src="4b436f3de5d59678f6face890bc77e3235c481fee16c94fd3da479cea0ff4315.png" title="Cristian select Medellin on Cerrar polit&iacute;cas" width="1366"/>
+                <img src="8a90138d07c3d7579eeab5a322945324f51145de6c58f256b1870bc8c76f774f.png" title="Cristian clicks on Cerrar polit&iacute;cas" width="1366"/>
+                <img src="4b7a7a683dc41e126ffb4e181ef54f33ac3f7248741cc89d119a52e6bd68d21e.png" title="Cristian clicks on Cerrar polit&iacute;cas" width="1366"/>
+                <img src="18d25a48a42bcefa91f2160825f69439af1353fa6d20f892ccc81ecf3e647978.png" title="Then he verifies the message &quot;Total&quot;" width="1366"/>
+                <img src="86640fd667c61e2148148c1b85c2c0c84f52157b4099c6dfea72008e33f4328b.png" title="Then verify total auteco: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

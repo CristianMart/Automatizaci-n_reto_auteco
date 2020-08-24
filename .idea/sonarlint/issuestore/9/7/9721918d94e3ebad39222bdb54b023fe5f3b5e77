@@ -1,0 +1,5 @@
+
+lsquid:UselessImportCheck"CRemove this unused import 'net.serenitybdd.screenplay.Performable'.(ğ”„Îüÿÿÿÿ
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åù»ùÿÿÿÿ
+Gsquid:UselessImportCheck	"Remove this duplicated import.(°Şªìşÿÿÿÿ
+Fsquid:EmptyStatementUsageCheck"Remove this empty statement.(¸ÇÛû

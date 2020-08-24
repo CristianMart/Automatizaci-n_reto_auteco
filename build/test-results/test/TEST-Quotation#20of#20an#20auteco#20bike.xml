@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Quotation of an auteco bike" tests="2" skipped="0" failures="1" errors="0" timestamp="2020-08-21T19:13:01" hostname="CHMEPPF0YRY8Z" time="35.09">
+  <properties/>
+  <testcase name="to quote a bike using the auteco tool" classname="Quotation of an auteco bike" time="35.078">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at co.com.test.stepdefinitions.AutecoStepDefinitions.heVerifiesTheMessage(AutecoStepDefinitions.java:37)
+	at ✽.he verifies the message &quot;Total&quot;(src/test/resources/features/auteco_quote.feature:11)
+</failure>
+  </testcase>
+  <testcase name="Alternative flux" classname="Quotation of an auteco bike" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[ago 21, 2020 2:13:01 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 29978
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598037185.978][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+ago 21, 2020 2:13:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: to quote a bike using the auteco tool
+---------------------------------------------------------------------
+[Test worker] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Then he verifies the message "Total"
+[Test worker] ERROR net.serenitybdd.core.Serenity - 
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Alternative flux
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
